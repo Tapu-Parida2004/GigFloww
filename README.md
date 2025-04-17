@@ -27,7 +27,7 @@ A responsive landing page for creative freelancers featuring testimonial slider,
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/GigFloww.git
+   git clone https://github.com/Tapu-Parida2004/GigFloww.git
    ```
 2. Open in browser:
    ```bash
