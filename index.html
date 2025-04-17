@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GigFloww - Your Creative Gig Journey Starts Here</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- Swiper JS CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">GigFloww</div>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li class="dropdown">
+                        <a href="#services">Services <i class="fas fa-chevron-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#design">Design</a></li>
+                            <li><a href="#development">Development</a></li>
+                            <li><a href="#writing">Writing</a></li>
+                            <li><a href="#marketing">Marketing</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#signup">Sign Up</a></li>
+                    <li><a href="#" class="btn btn-primary">Join Now</a></li>
+                </ul>
+            </nav>
+            <div class="mobile-menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <h1>Your Creative Gig Journey Starts Here</h1>
+                <p>Connect with clients, showcase your talent, and grow your freelance business with GigFloww.</p>
+                <div class="button-group">
+                    <a href="#signup" class="btn btn-primary">Get Started</a>
+                    <a href="#services" class="btn btn-secondary">Explore Services</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <div class="container">
+                <h2>About GigFloww</h2>
+                <p>GigFloww is the premier platform for creative professionals to find meaningful work and build lasting client relationships. Whether you're a designer, developer, writer, or any other creative freelancer, we provide the tools and community to help you succeed.</p>
+            </div>
+        </section>
+
+        <section id="features" class="features">
+            <div class="container">
+                <h2>Why Choose GigFloww?</h2>
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <i class="fas fa-bolt"></i>
+                        <h3>Quick Matching</h3>
+                        <p>Our smart algorithm connects you with clients who need your specific skills instantly.</p>
+                    </div>
+                    <div class="feature-card">
+                        <i class="fas fa-shield-alt"></i>
+                        <h3>Secure Payments</h3>
+                        <p>Get paid securely and on time with our protected escrow payment system.</p>
+                    </div>
+                    <div class="feature-card">
+                        <i class="fas fa-chart-line"></i>
+                        <h3>Growth Tools</h3>
+                        <p>Access resources and analytics to help grow your freelance business.</p>
+                    </div>
+                    <div class="feature-card">
+                        <i class="fas fa-users"></i>
+                        <h3>Supportive Community</h3>
+                        <p>Join a network of creative professionals and collaborate on projects.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="testimonials" class="testimonials">
+            <div class="container">
+                <h2>What Our Users Say</h2>
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="testimonial-card">
+                                <div class="testimonial-content">
+                                    <i class="fas fa-quote-left"></i>
+                                    <p>GigFloww has completely transformed my freelance career. I've doubled my income and found long-term clients who value my work.</p>
+                                    <i class="fas fa-quote-right"></i>
+                                </div>
+                                <div class="testimonial-author">
+                                    <img src="https://randomuser.me/api/portraits/women/32.jpg" alt="Sarah Johnson">
+                                    <div>
+                                        <h4>Sarah Johnson</h4>
+                                        <span>Graphic Designer</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="testimonial-card">
+                                <div class="testimonial-content">
+                                    <i class="fas fa-quote-left"></i>
+                                    <p>As a developer, finding quality projects was always a challenge. With GigFloww, I spend less time searching and more time coding.</p>
+                                    <i class="fas fa-quote-right"></i>
+                                </div>
+                                <div class="testimonial-author">
+                                    <img src="https://randomuser.me/api/portraits/men/45.jpg" alt="Michael Chen">
+                                    <div>
+                                        <h4>Michael Chen</h4>
+                                        <span>Web Developer</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="testimonial-card">
+                                <div class="testimonial-content">
+                                    <i class="fas fa-quote-left"></i>
+                                    <p>The community aspect sets GigFloww apart. I've collaborated with other writers on projects and learned so much in the process.</p>
+                                    <i class="fas fa-quote-right"></i>
+                                </div>
+                                <div class="testimonial-author">
+                                    <img src="https://randomuser.me/api/portraits/women/68.jpg" alt="Emma Rodriguez">
+                                    <div>
+                                        <h4>Emma Rodriguez</h4>
+                                        <span>Content Writer</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Add Pagination -->
+                    <div class="swiper-pagination"></div>
+                    <!-- Add Navigation -->
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+            </div>
+        </section>
+
+        <section id="signup" class="signup">
+            <div class="container">
+                <div class="signup-form-container">
+                    <h2>Join GigFloww Today</h2>
+                    <form id="registrationForm" class="signup-form">
+                        <div class="form-group">
+                            <label for="name">Full Name</label>
+                            <input type="text" id="name" name="name" required>
+                            <div class="error-message" id="name-error"></div>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" required>
+                            <div class="error-message" id="email-error"></div>
+                        </div>
+                        <div class="form-group">
+                            <label for="skill">Skill Category</label>
+                            <select id="skill" name="skill" required>
+                                <option value="">Select your skill</option>
+                                <option value="design">Design</option>
+                                <option value="development">Development</option>
+                                <option value="writing">Writing</option>
+                                <option value="marketing">Marketing</option>
+                                <option value="other">Other</option>
+                            </select>
+                            <div class="error-message" id="skill-error"></div>
+                        </div>
+                        <div class="form-group">
+                            <label for="portfolio">Portfolio Link (Optional)</label>
+                            <input type="url" id="portfolio" name="portfolio">
+                            <div class="error-message" id="portfolio-error"></div>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block">Create Account</button>
+                    </form>
+                    <div id="thankYouMessage" class="thank-you-message">
+                        <i class="fas fa-check-circle"></i>
+                        <h3>Thank You for Signing Up!</h3>
+                        <p>We've sent a confirmation email to your address. Welcome to the GigFloww community!</p>
+                        <button class="btn btn-secondary" onclick="resetForm()">Back to Form</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="cta">
+            <div class="container">
+                <h2>Ready to Start Your Gig Journey?</h2>
+                <p>Join thousands of creatives who are building successful freelance careers on GigFloww.</p>
+                <div class="button-group">
+                    <a href="#signup" class="btn btn-primary btn-large">Join Now</a>
+                    <a href="#features" class="btn btn-secondary btn-large">Learn More</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 GigFloww. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
